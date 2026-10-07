@@ -1,0 +1,54 @@
+# AntiPhish Analysis Methodology
+
+## 1. URL Parsing
+
+The first stage is parsing the URL into components.
+
+The analyzer identifies:
+
+- Scheme
+- Domain
+- Path
+- Query parameters
+
+## 2. Domain Analysis
+
+The domain is examined for:
+
+- IP-based addressing
+- Excessive subdomains
+- Suspicious TLDs
+- URL shorteners
+
+## 3. Keyword Analysis
+
+The URL is searched for terms commonly associated with phishing.
+
+Examples:
+
+- login
+- verify
+- password
+- account
+- secure
+
+These indicators alone do not prove malicious activity.
+
+## 4. Obfuscation Analysis
+
+The analyzer checks for characteristics such as:
+
+- Excessive encoding
+- @ characters
+- Multiple separators
+- Very long URLs
+- Excessive hyphens
+
+## 5. Risk Scoring
+
+The tool combines multiple indicators into a simple risk score.
+
+```text
+0-29     LOW
+30-59    MEDIUM
+60-100   HIGH
