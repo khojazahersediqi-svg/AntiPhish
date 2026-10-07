@@ -1,0 +1,28 @@
+=== AntiPhish URL Analysis ===
+
+URL:
+https://example.com/login
+
+HTTPS:
+YES
+
+IP Address:
+NO
+
+Domain:
+example.com
+
+Suspicious Keywords:
+login
+
+URL Shortener:
+NO
+
+Risk Score:
+15/100
+
+Risk Level:
+LOW
+
+Recommendation:
+No strong phishing indicators were detected.
