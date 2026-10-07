@@ -1,0 +1,24 @@
+AntiPhish/
+│
+├── README.md
+├── antiphish.py
+├── requirements.txt
+├── .gitignore
+├── LICENSE
+├── SECURITY.md
+│
+├── rules/
+│   └── phishing_rules.json
+│
+├── tests/
+│   └── test_antiphish.py
+│
+├── samples/
+│   ├── README.md
+│   └── safe_urls.txt
+│
+├── reports/
+│   └── .gitkeep
+│
+└── docs/
+    └── methodology.md
